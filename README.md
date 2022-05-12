@@ -35,14 +35,14 @@ The knowledge topics resources
 | Main Concepts             | The main concepts involved in K-12 education | Jiuding  | N/A  |May.19th,2022|
 | Rhetorical Roles          | The rhetorical roles of the main concepts    | Jiuding  | N/A  |May.19th,2022|
 
-/
+<br/>
 The educational resources
 | Educational Resources     | Description                                  | Download | Size | Last Update |
 |---------------------------|----------------------------------------------|----------|------|-------------|
 | Exercises                 | TBD                                          | Yuchen   | N/A  |May.19th,2022|
 | Reading Material          | TBD                                          | Yuchen   | N/A  |May.19th,2022|
 
-/
+<br/>
 The external heterogenous resources
 | External Heterogenous data| Description                                  | Download | Size | Last Update |
 |---------------------------|----------------------------------------------|----------|------|-------------|
