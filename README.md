@@ -5,9 +5,9 @@ EduKG is proposed and maintained by the Knowledge Engineering Group of Tsinghua 
 
  In general, our contributions are summarized as follows:
 
-1. An interdisciplinary, fine-grained ontology uniformly represents K-12 educa- tional knowledge, resources, and heterogeneous data with 635 classes, 445 object properties, and 1314 datatype properties; 
+1. An interdisciplinary, fine-grained ontology uniformly represents K-12 educational knowledge, resources, and heterogeneous data with 635 classes, 445 object properties, and 1314 datatype properties; 
 
-2. A large-scale, heterogeneous K-12 educational KG with more than 252 mil- lion entities and 3.86 billion triplets based on the data from massive educa- tional and external resources;
+2. A large-scale, heterogeneous K-12 educational KG with more than 252 million entities and 3.86 billion triplets based on the data from massive educa- tional and external resources;
 
 3. A flexible and sustainable construction and maintenance mechanism empow- ers EDUKG to evolve dynamically, where we design guiding schema of the construction methodology as hot-swappable, and we simultaneously monitor 32 different data sources for incrementally infusing heterogeneous data.
 
