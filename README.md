@@ -32,8 +32,8 @@ The resources of EduKG mainly consists of three parts: knowledge topics, educati
 The knowledge topics resources
 | Knowledge Topic Resrouces | Description                                  | Download | Size | Last Update |
 |---------------------------|----------------------------------------------|----------|------|-------------|
-| Main Concepts             | The main concepts involved in K-12 education | Jiuding  | N/A  |May.19th,2022|
-| Rhetorical Roles          | The rhetorical roles of the main concepts    | Jiuding  | N/A  |May.19th,2022|
+| Main Concepts             | The main concepts involved in K-12 education | [main.ttl](https://drive.google.com/file/d/1YoPITzjk2oKoX0k_XbLplu8IUn16bg4-/view?usp=sharing) | 16.8M  |May.18th,2022|
+
 
 
 The educational resources
