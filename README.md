@@ -46,20 +46,20 @@ The educational resources
 The external heterogenous resources
 | External Heterogenous data| Description                                  | Download | Size | Last Update |
 |---------------------------|----------------------------------------------|----------|------|-------------|
-| BioGRID| An Online Interaction Respository With Data Compiled Through Comprehensive Curation Efforts.| [biogrid.zip](https://drive.google.com/file/d/1ed0ec9WdEDuCIdrd7rJOwkyoWtr2Bc5c/view?usp=sharing)   | 52.8M  |May.6th,2022|
-| UniProtKB|The central hub for the collection of functional information on proteins| Xingyu   | N/A  |May.19th,2022|
-| New York Times|An American daily newspaper based in New York City with a worldwide readership| Xingyu   | N/A  |May.19th,2022|
+| BioGRID| An Online Interaction Respository With Data Compiled Through Comprehensive Curation Efforts.| [biogrid.zip](https://drive.google.com/file/d/1ed0ec9WdEDuCIdrd7rJOwkyoWtr2Bc5c/view?usp=sharing)   | 52.8M  |May.5th,2022|
+| UniProtKB|The central hub for the collection of functional information on proteins| [uniprot.zip](https://drive.google.com/file/d/19GqxPKCupUwIOH1OWLRSZ7LdLhKIJ4dQ/view?usp=sharing)   | 410.8M  |May.5th,2022|
+| New York Times|An American daily newspaper based in New York City with a worldwide readership| [nytimes.zip](https://drive.google.com/file/d/1ZV21wGPx8oE9XKwijlAIRFlNM6cCpH9A/view?usp=sharing)   | 544.6M  |May.5th,2022|
 | FAOSTAT|FAOSTAT provides free access to food and agriculture data for over 245 countries and territories | Xingyu   | N/A  |May.19th,2022|
 |IHS|N/A| Xingyu   | N/A  |TBD|
 |Thesaurus-Merriam-Webster|Synonyms, antonyms, definitions, and example sentences developed from Merriam-Webster dictionary| Xingyu   | N/A  |TBD|
 |PubChem|The world's largest collection of freely accessible chemical information| Xingyu   | N/A  |May.19th,2022|
-|NBSC|Public statistical data provided by National Bureau of Statistics of China| Xingyu   | N/A  |May.19th,2022|
+|NBSC|Public statistical data provided by National Bureau of Statistics of China| [NBS.zip](https://drive.google.com/file/d/1ItBqExrTXonsyk8EzU9b7lj0HZK536AR/view?usp=sharing)  | 8.9M  |May.5th,2022|
 |DataBank|DataBank gives enterprises, technology, and content providers the confidence of knowing their applications and data are always secure| Xingyu   | N/A  |TBD|
 |CSKG|A multi-sources knowledge graph for common sense| Xingyu   | N/A  |May.19th,2022|
-|HowNet|An online common-sense knowledge base unveiling inter-conceptual relations and inter-attribute relations of concepts| Xingyu   | N/A  |May.19th,2022|
+|HowNet|An online common-sense knowledge base unveiling inter-conceptual relations and inter-attribute relations of concepts| [HowNet.zip](https://drive.google.com/file/d/1kZg3ose06wLIYNBJ1XfXmY7GdToR2On1/view?usp=sharing)   | 8.2M  |May.5th,2022|
 |WordNet|A large lexical database of English| Xingyu   | N/A  |May.19th,2022|
-|Framester|A frame-based ontological resource acting as a hub between linguistic resources | Xingyu   | N/A  |TBD|
-|GeoNames|The GeoNames geographical database covers all countries and contains over eleven million placenames| Xingyu   | N/A  |May.19th,2022|
+|Framester|A frame-based ontological resource acting as a hub between linguistic resources | [framester.zip](https://drive.google.com/file/d/1hWSGOAYpgTk5-hrCoijhLI9jPhpPVJ5T/view?usp=sharing)   | 969.7M  |May.5th,2022|
+|GeoNames|The GeoNames geographical database covers all countries and contains over eleven million placenames| [geoNames.zip](https://drive.google.com/file/d/1Yve8deeTpQsqjpT2TpTmrktB1vnlECwY/view?usp=sharing)   | 459.8M  |May.5th,2022|
 |国家统计年鉴|N/A| Xingyu   | TBD  |May.19th,2022|
 |第五六次人口普查数据|N/A| Xingyu   | TBD  |May.19th,2022|
 |公开政府文件|N/A| Xingyu   | TBD  |May.19th,2022|
