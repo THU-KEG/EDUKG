@@ -13,7 +13,7 @@ EduKG is proposed and maintained by the Knowledge Engineering Group of Tsinghua 
 
 ## Updates
 
-[//]: # ### May.13rd
+[### May.13rd]: #
 
 ### May.17th
 
