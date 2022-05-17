@@ -46,7 +46,7 @@ The educational resources
 The external heterogenous resources
 | External Heterogenous data| Description                                  | Download | Size | Last Update |
 |---------------------------|----------------------------------------------|----------|------|-------------|
-| BioGRID| An Online Interaction Respository With Data Compiled Through Comprehensive Curation Efforts.| Xingyu   | N/A  |May.19th,2022|
+| BioGRID| An Online Interaction Respository With Data Compiled Through Comprehensive Curation Efforts.| [biogrid.zip](https://drive.google.com/file/d/1ed0ec9WdEDuCIdrd7rJOwkyoWtr2Bc5c/view?usp=sharing)   | 52.8  |May.6th,2022|
 | UniProtKB|The central hub for the collection of functional information on proteins| Xingyu   | N/A  |May.19th,2022|
 | New York Times|An American daily newspaper based in New York City with a worldwide readership| Xingyu   | N/A  |May.19th,2022|
 | FAOSTAT|FAOSTAT provides free access to food and agriculture data for over 245 countries and territories | Xingyu   | N/A  |May.19th,2022|
