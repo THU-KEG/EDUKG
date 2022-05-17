@@ -15,8 +15,6 @@ EduKG is proposed and maintained by the Knowledge Engineering Group of Tsinghua 
 
 [### May.13rd]: #
 
-### May.17th
-
 ## Repository Framework
 
 The framework of our work is illustrated as below:
@@ -49,18 +47,23 @@ The external heterogenous resources
 | BioGRID| An Online Interaction Respository With Data Compiled Through Comprehensive Curation Efforts.| [biogrid.zip](https://drive.google.com/file/d/1ed0ec9WdEDuCIdrd7rJOwkyoWtr2Bc5c/view?usp=sharing)   | 52.8M  |May.5th,2022|
 | UniProtKB|The central hub for the collection of functional information on proteins| [uniprot.zip](https://drive.google.com/file/d/19GqxPKCupUwIOH1OWLRSZ7LdLhKIJ4dQ/view?usp=sharing)   | 410.8M  |May.5th,2022|
 | New York Times|An American daily newspaper based in New York City with a worldwide readership| [nytimes.zip](https://drive.google.com/file/d/1ZV21wGPx8oE9XKwijlAIRFlNM6cCpH9A/view?usp=sharing)   | 544.6M  |May.5th,2022|
-| FAOSTAT|FAOSTAT provides free access to food and agriculture data for over 245 countries and territories | Xingyu   | N/A  |May.19th,2022|
+
+[| FAOSTAT|FAOSTAT provides free access to food and agriculture data for over 245 countries and territories | Xingyu   | N/A  |May.19th,2022|
 |IHS|N/A| Xingyu   | N/A  |TBD|
 |Thesaurus-Merriam-Webster|Synonyms, antonyms, definitions, and example sentences developed from Merriam-Webster dictionary| Xingyu   | N/A  |TBD|
-|PubChem|The world's largest collection of freely accessible chemical information| Xingyu   | N/A  |May.19th,2022|
+|PubChem|The world's largest collection of freely accessible chemical information| Xingyu   | N/A  |May.19th,2022|]: #
+
 |NBSC|Public statistical data provided by National Bureau of Statistics of China| [NBS.zip](https://drive.google.com/file/d/1ItBqExrTXonsyk8EzU9b7lj0HZK536AR/view?usp=sharing)  | 8.9M  |May.5th,2022|
-|DataBank|DataBank gives enterprises, technology, and content providers the confidence of knowing their applications and data are always secure| Xingyu   | N/A  |TBD|
-|CSKG|A multi-sources knowledge graph for common sense| Xingyu   | N/A  |May.19th,2022|
+
+[|DataBank|DataBank gives enterprises, technology, and content providers the confidence of knowing their applications and data are always secure| Xingyu   | N/A  |TBD|
+|CSKG|A multi-sources knowledge graph for common sense| Xingyu   | N/A  |May.19th,2022|]: #
+
 |HowNet|An online common-sense knowledge base unveiling inter-conceptual relations and inter-attribute relations of concepts| [HowNet.zip](https://drive.google.com/file/d/1kZg3ose06wLIYNBJ1XfXmY7GdToR2On1/view?usp=sharing)   | 8.2M  |May.5th,2022|
 |WordNet|A large lexical database of English| Xingyu   | N/A  |May.19th,2022|
 |Framester|A frame-based ontological resource acting as a hub between linguistic resources | [framester.zip](https://drive.google.com/file/d/1hWSGOAYpgTk5-hrCoijhLI9jPhpPVJ5T/view?usp=sharing)   | 969.7M  |May.5th,2022|
 |GeoNames|The GeoNames geographical database covers all countries and contains over eleven million placenames| [geoNames.zip](https://drive.google.com/file/d/1Yve8deeTpQsqjpT2TpTmrktB1vnlECwY/view?usp=sharing)   | 459.8M  |May.5th,2022|
-|国家统计年鉴|N/A| Xingyu   | TBD  |May.19th,2022|
+
+[|国家统计年鉴|N/A| Xingyu   | TBD  |May.19th,2022|
 |第五六次人口普查数据|N/A| Xingyu   | TBD  |May.19th,2022|
 |公开政府文件|N/A| Xingyu   | TBD  |May.19th,2022|
 |Wikinews (Chinese)|N/A| Jiuding  | TBD  |May.19th,2022|
@@ -69,13 +72,11 @@ The external heterogenous resources
 |Wikisources (English)|N/A| Jiuding  | TBD  |May.19th,2022|
 |Wikidictionary (Chinese)|N/A| Jiuding  | TBD  |May.19th,2022|
 |Wikidictionary (English)|N/A| Jiuding  | TBD  |May.19th,2022|
-|Wikivoyage (English)|N/A| Jiuding  | TBD  |May.19th,2022|
+|Wikivoyage (English)|N/A| Jiuding  | TBD  |May.19th,2022|]: #
 
 
-
-
-Other Resources 
-  - Ontology demonstration page: TBD
+[Other Resources 
+  - Ontology demonstration page: TBD]: #
 
 ## Toolkits
 
@@ -87,14 +88,11 @@ The toolkits for construction the EduKG is provided below:
 | Entity Linking        | TBD                                          | Yuchen   | 
 | Entity Alignment        | TBD                                          | Jiuding   | 
 | XML2TTL Parser       | TBD                                          | Jiuding   | 
-| TBD Parser       | TBD                                          | TBD   | 
-| TBD Parser       | TBD                                          | TBD   | 
 
-The toolkits for interacting with the EduKG resources is provided below:
+[The toolkits for interacting with the EduKG resources is provided below:
 | Name     | Description                                  |Usage Example|
 |---------------------------|----------------------------------------------|----------|
-| download_dataset.sh |Download the full dataset. | Bowen   |
-
+| download_dataset.sh |Download the full dataset. | Bowen   |]: #
 
 
 ## Reference
