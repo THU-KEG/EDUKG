@@ -80,9 +80,9 @@ The external heterogenous resources
 The toolkits for construction the EduKG is provided below:
 | Name     | Description                                  |Jump to|
 |---------------------------|----------------------------------------------|----------|
-| Knowledge Candidate Extraction | TBD                                          |To    |
-| Concept Expansion        | TBD                                          | Bowen   | 
-| Entity Linking        | TBD                                          | Yuchen   | 
+| Knowledge Candidate Extraction | TBD                                          |To be uploaded|
+| Concept Expansion        | TBD                                          |To be uploaded| 
+| Entity Linking        | TBD                                          |To be uploaded| 
 | Entity Alignment        |Aligned entity with Wikidata and XLORE entity by neighborhood information| edukgea | 
 | XML2TTL Parser       |A modulized tool for parsing XML into knowledge graph with ontology| xml2ttl   | 
 | Rhetorical Role Typing       |Rhetorical role typing based on dependency tree | [rhetyper](https://github.com/THU-KEG/EDUKG/tree/main/rhetyper)   | 
