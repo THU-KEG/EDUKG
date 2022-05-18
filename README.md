@@ -39,8 +39,9 @@ The educational resources
 | Educational Resources     | Description                                  | Download | Size | Last Update |
 |---------------------------|----------------------------------------------|----------|------|-------------|
 | Exercises                 |The exercises and exams of Chinese K-12 education since 2017| exercise.ttl | N/A  |May.5th,2022|
-| Reading Material          |The supplimentary reading materials for Chinese K-12 education| material.ttl   | N/A  |May.5th,2022|
+| Reading Material          |The supplimentary and mandatory reading materials for Chinese K-12 education| material.ttl   | N/A  |May.5th,2022|
 
+Note: Due to copyright issues, the textual content of the reading material will not be published 
 
 The external heterogenous resources
 | External Heterogenous data| Description                                  | Download | Size | Last Update |
