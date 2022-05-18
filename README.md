@@ -81,7 +81,7 @@ The external heterogenous resources
 ## Toolkits
 
 The toolkits for construction the EduKG is provided below:
-| Name     | Description                                  |Download|
+| Name     | Description                                  |Jump to|
 |---------------------------|----------------------------------------------|----------|
 | Knowledge Candidate Extraction | TBD                                          | Bowen   |
 | Concept Expansion        | TBD                                          | Bowen   | 
