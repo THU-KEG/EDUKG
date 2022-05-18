@@ -3987,7 +3987,16 @@
         <DataProperty IRI="data_property/main#P1177"/>
     </Declaration>
     <Declaration>
+        <DataProperty IRI="data_property/main#P1178"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="data_property/main#P1179"/>
+    </Declaration>
+    <Declaration>
         <DataProperty IRI="data_property/main#P118"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="data_property/main#P1180"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="data_property/main#P119"/>
@@ -16499,7 +16508,19 @@
         <DataProperty IRI="data_property/main#P0"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
+        <DataProperty IRI="data_property/main#P1178"/>
+        <DataProperty IRI="data_property/main#P0"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="data_property/main#P1179"/>
+        <DataProperty IRI="data_property/main#P0"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
         <DataProperty IRI="data_property/main#P118"/>
+        <DataProperty IRI="data_property/main#P0"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="data_property/main#P1180"/>
         <DataProperty IRI="data_property/main#P0"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
@@ -21763,8 +21784,36 @@
         <Class IRI="class/main#C3"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
+        <DataProperty IRI="data_property/main#P1178"/>
+        <Class IRI="class#external-C0"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="data_property/main#P1178"/>
+        <Class IRI="class/main#C0"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="data_property/main#P1178"/>
+        <Class IRI="class/resource#C0"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="data_property/main#P1179"/>
+        <Class IRI="class#external-C0"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="data_property/main#P1179"/>
+        <Class IRI="class/main#C0"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="data_property/main#P1179"/>
+        <Class IRI="class/resource#C0"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
         <DataProperty IRI="data_property/main#P118"/>
         <Class IRI="class/main#C80"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="data_property/main#P1180"/>
+        <Class IRI="class/main#C0"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="data_property/main#P119"/>
@@ -28607,8 +28656,20 @@
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
+        <DataProperty IRI="data_property/main#P1178"/>
+        <Datatype abbreviatedIRI="xsd:anyURI"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="data_property/main#P1179"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
         <DataProperty IRI="data_property/main#P118"/>
         <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="data_property/main#P1180"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="data_property/main#P119"/>
@@ -39025,8 +39086,38 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>data_property/main#P1178</IRI>
+        <Literal xml:lang="en">hasXLORELink</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>data_property/main#P1178</IRI>
+        <Literal xml:lang="zh">有xlore连接</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>data_property/main#P1179</IRI>
+        <Literal xml:lang="zh">XLore名称</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>data_property/main#P1179</IRI>
+        <Literal xml:lang="en">hasXLORELabel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>data_property/main#P118</IRI>
         <Literal xml:lang="zh">前肢</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>data_property/main#P1180</IRI>
+        <Literal xml:lang="en">positionInText</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>data_property/main#P1180</IRI>
+        <Literal xml:lang="zh">文中位置</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
