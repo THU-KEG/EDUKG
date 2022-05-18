@@ -87,12 +87,6 @@ The toolkits for construction the EduKG is provided below:
 | XML2TTL Parser       | TBD                                          | Jiuding   | 
 | Rhetorical Role Typing       |Rhetorical role typing based on dependency tree | [rhetyper](https://github.com/THU-KEG/EDUKG/tree/main/rhetyper)   | 
 
-[The toolkits for interacting with the EduKG resources is provided below:
-| Name     | Description                                  |Usage Example|
-|---------------------------|----------------------------------------------|----------|
-| download_dataset.sh |Download the full dataset. | Bowen   |]: #
-
-
 ## Reference
 
 
