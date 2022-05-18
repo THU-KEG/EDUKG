@@ -12,8 +12,9 @@ EduKG is proposed and maintained by the Knowledge Engineering Group of Tsinghua 
 3. A flexible and sustainable construction and maintenance mechanism empowers EDUKG to evolve dynamically, where we design guiding schema of the construction methodology as hot-swappable, and we simultaneously monitor 32 different data sources for incrementally infusing heterogeneous data.
 
 ## Updates
-
-[### May.13rd]: #
+May.13rd: 
+- The first version of our repository is officially online!!!
+- New heterogeneous database parsed and uploaded: NBSC, BioGRID
 
 ## Repository Framework
 
