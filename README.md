@@ -41,7 +41,7 @@ The educational resources
 | Educational Resources     | Description                                  | Download | Size | Last Update |
 |---------------------------|----------------------------------------------|----------|------|-------------|
 | Exercises                 |The exercises and exams of Chinese K-12 education since 2017| exercise.ttl | N/A  |May.5th,2022|
-| Reading Material          |The supplimentary and mandatory reading materials for Chinese K-12 education| [material.ttl](https://drive.google.com/file/d/1xgUWMkIl5g3h_CeneCPDOR3MUlWyX06q/view?usp=sharing)   | N/A  |May.5th,2022|
+| Reading Material          |The supplimentary and mandatory reading materials for Chinese K-12 education| [material.ttl](https://drive.google.com/file/d/1xgUWMkIl5g3h_CeneCPDOR3MUlWyX06q/view?usp=sharing)   | 3.7M |May.5th,2022|
 
 **Note:** Due to copyright issues, the textual content of the reading material will not be published 
 
