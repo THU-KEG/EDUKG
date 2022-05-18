@@ -43,7 +43,7 @@ The educational resources
 | Exercises                 |The exercises and exams of Chinese K-12 education since 2017| exercise.ttl | N/A  |May.5th,2022|
 | Reading Material          |The supplimentary and mandatory reading materials for Chinese K-12 education| material.ttl   | N/A  |May.5th,2022|
 
-Note: Due to copyright issues, the textual content of the reading material will not be published 
+**Note:** Due to copyright issues, the textual content of the reading material will not be published 
 
 
 <br>
