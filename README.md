@@ -73,11 +73,9 @@ The external heterogenous resources
 |Wikisources (English)|N/A| Jiuding  | TBD  |May.19th,2022|
 |Wikidictionary (Chinese)|N/A| Jiuding  | TBD  |May.19th,2022|
 |Wikidictionary (English)|N/A| Jiuding  | TBD  |May.19th,2022|
-|Wikivoyage (English)|N/A| Jiuding  | TBD  |May.19th,2022|]: #
-
-
-[Other Resources 
-  - Ontology demonstration page: TBD]: #
+|Wikivoyage (English)|N/A| Jiuding  | TBD  |May.19th,2022|
+Other Resources 
+  - Ontology demonstration page: TBD:]: #
 
 ## Toolkits
 
