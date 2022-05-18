@@ -34,6 +34,8 @@ The knowledge topics resources
 | Main Concepts             | The main concepts involved in K-12 education | [main.ttl](https://drive.google.com/file/d/1YoPITzjk2oKoX0k_XbLplu8IUn16bg4-/view?usp=sharing) | 16.8M  |May.18th,2022|
 
 
+<br>
+
 
 The educational resources
 | Educational Resources     | Description                                  | Download | Size | Last Update |
@@ -42,6 +44,10 @@ The educational resources
 | Reading Material          |The supplimentary and mandatory reading materials for Chinese K-12 education| material.ttl   | N/A  |May.5th,2022|
 
 Note: Due to copyright issues, the textual content of the reading material will not be published 
+
+
+<br>
+
 
 The external heterogenous resources
 | External Heterogenous data| Description                                  | Download | Size | Last Update |
