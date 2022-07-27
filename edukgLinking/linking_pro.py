@@ -1,12 +1,14 @@
-import os
-import csv
-import json
-from re import sub
-from utils import dicts_path, csv_path
 from engine import Engine
+import requests
+from utils import csv_path
+import json
+import csv
+import os
+import re
 
-engine = Engine()
 
+es = Engine()
+ner_url = 'http://10.1.1.39:8001/ka/ner'
 
 entity_dict = {}
 for subject in csv_path.keys():
@@ -16,6 +18,7 @@ for subject in csv_path.keys():
     first_row = True
     label_col = -1
     uri_col = -1
+    xlore_col = -1
     for row in csv_iter:
         if first_row:
             for i in range(len(row)):
@@ -23,61 +26,44 @@ for subject in csv_path.keys():
                     label_col = i
                 elif row[i] == 'uri':
                     uri_col = i
+                elif row[i] == 'xlore':
+                    xlore_col = i
             first_row = False
         else:
             entity_list[row[label_col]] = row[uri_col]
     entity_dict[subject] = entity_list
     csv_file.close()
 
-
-def csv2dict(csv_path: str, dict_path: str) -> None:
-    f_csv = open(csv_path, 'r')
-    f_dict = open(dict_path, 'w')
-    csv_iter = csv.reader(f_csv)
-    first_row = True
-    label_col = -1
-    for row in csv_iter:
-        if first_row:
-            for i in range(len(row)):
-                if row[i] == 'label':
-                    label_col = i
-                    break
-            first_row = False
+def EM(text):
+    text = re.sub('[^\u4e00-\u9fa5a-zA-Z0-9\n]+', '', text)
+    text_list = re.split('\n|。|，|\.', text)
+    entity_list = []
+    for t in text_list:
+        if t == '':
             continue
-        else:
-            f_dict.write('%s 1\n' % row[label_col].strip('\"'))
-    f_csv.close()
-    f_dict.close()
+        res = requests.post(url=ner_url, json={'text': t})
+        try:
+            for d in json.loads(res.content.decode('utf-8'))['spans']:
+                entity_list.append(d)
+        except json.decoder.JSONDecodeError:
+            print(t)
+            print(res.content.decode('utf-8'))
+            exit(0)
+    return entity_list
 
-
-def gen_dict(prefix):
-    csv_prefix = 'processed_3.0'
-    for name in os.listdir(csv_prefix):
-        if name == '.DS_Store':
-            continue
-        csv2dict('%s/%s' % (csv_prefix, name), '%s/%s.txt' % (prefix, name.split('_')[0]))
-
-
-def process(content, subject):
-    import jieba
-    jieba.load_userdict(dicts_path[subject])
-    words = jieba.lcut(content)
-    del jieba
-    cursor = 0
+def CG(entity_list, subject):
     label_map = {}
-    for word in words:
-        hits = engine.fuzzSearch('label', word, subject, 1)['hits']['hits']
+    for entity in entity_list:
+        hits = es.fuzzSearch('label', entity['text'], subject, 1)['hits']['hits']
         if len(hits) > 0 and hits[0]['_score'] > 12.0:
             target = hits[0]['_source']['label']
-            if target in entity_dict[subject].keys():
-                if target in label_map.keys():
-                    label_map[target]['where'].append([cursor, cursor + len(word)])
-                else:
-                    label_map[target] = {
-                        'uri': entity_dict[subject][target],
-                        'where': [[cursor, cursor + len(word)]]
-                    }
-        cursor += len(word)
+            if target in label_map.keys():
+                label_map[target]['where'].append([entity['start'], entity['end']])
+            else:
+                label_map[target] = {
+                    'uri': entity_dict[subject][target],
+                    'where': [[entity['start'], entity['end']]]
+                }
     data = []
     for label in label_map.keys():
         data.append({
@@ -85,29 +71,20 @@ def process(content, subject):
             'uri': label_map[label]['uri'],
             'where': label_map[label]['where']
         })
-    if data == []:
-        return None
     return data
 
-def process_simple(content, subject):
-    import jieba
-    jieba.load_userdict(dicts_path[subject])
-    words = jieba.lcut(content)
-    del jieba
-    cursor = 0
+def CG_Simple(entity_list, subject):
     label_map = {}
-    for word in words:
-        if word in entity_dict[subject].keys():
-            target = word
-            if target in entity_dict[subject].keys():
-                if target in label_map.keys():
-                    label_map[target]['where'].append([cursor, cursor + len(word)])
-                else:
-                    label_map[target] = {
-                        'uri': entity_dict[subject][target],
-                        'where': [[cursor, cursor + len(word)]]
-                    }
-        cursor += len(word)
+    for entity in entity_list:
+        if entity['text'] in entity_dict[subject].keys():
+            target = entity['text']
+            if target in label_map.keys():
+                label_map[target]['where'].append([entity['start'], entity['end']])
+            else:
+                label_map[target] = {
+                    'uri': entity_dict[subject][target],
+                    'where': [[entity['start'], entity['end']]]
+                }
     data = []
     for label in label_map.keys():
         data.append({
@@ -115,10 +92,14 @@ def process_simple(content, subject):
             'uri': label_map[label]['uri'],
             'where': label_map[label]['where']
         })
-    if data == []:
-        return None
     return data
 
+def ED(text, candidate, subject):
+    return candidate
+    pass
+
+def linking(text, subject):
+    return ED(text, CG_Simple(EM(text), subject), subject)
 
 def process_json(json_path):
     json_file = open(json_path, 'r')
@@ -144,16 +125,15 @@ def process_json(json_path):
                 print(json_path)
                 print(e)
                 print(question)
-
-    return process_simple(text, subject)
-
+    
+    return linking(text, subject)
 
 if __name__ == '__main__':
     # gen_dict('dicts')
     # print(process_json('/Users/flagerlee/GaoKao_generate/json/2019GaoKao/2019_39/39_10.json'))
 
     json_root = '/Users/flagerlee/GaoKao_generate/json'
-    path_prefix = 'temp4'
+    path_prefix = 'temp3'
     if not os.path.exists(path_prefix):
         os.mkdir(path_prefix)
     for year_name in os.listdir(json_root):
